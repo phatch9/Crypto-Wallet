@@ -1,14 +1,19 @@
 # React + TypeScript + Vite
 
-## Installation
-
-run the command: 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+## Run the Local Repo:
+Clone the project:
 ``` 
+git clone https://github.com/phatch9/Crypto-Wallet.git
+```
+In the project directory, run the command:
+```
 npm install
 ```
+Build the project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
+---
 Currently, there are two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
