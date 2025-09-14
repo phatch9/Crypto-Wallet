@@ -37,7 +37,7 @@ const SUPPORTED_WALLETS = [
 { id: 'phantom', name: 'Phantom' },
 ] as const
 
-const WalletConnector = () => {
+const Connector = () => {
 const { toast } = useToast()
 const [selectedWallet, setSelectedWallet] = useState<string>()
 const { isConnected, address } = useAccount()
@@ -108,7 +108,7 @@ return (
 
         {!isConnected && (
         <div className="space-y-2">
-            <div className="text-sm">Select Wallet:</div>
+            <div className="text-sm">Select Your Wallet:</div>
             <Select onValueChange={setSelectedWallet}>
             <SelectTrigger className="w-full">
                 <SelectValue placeholder="Select wallet" />
