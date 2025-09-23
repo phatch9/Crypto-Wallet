@@ -16,7 +16,7 @@ if (!isConnected || !balance || !chain) {
 return (
     <Card className="w-full max-w-md mx-auto mt-4">
     <CardHeader>
-        <CardTitle>Wallet Balance on {chain.name}</CardTitle>
+        <CardTitle>Current Balance on {chain.name}</CardTitle>
     </CardHeader>
     <CardContent>
         <div className="flex justify-between items-center">

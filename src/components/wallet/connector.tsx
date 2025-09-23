@@ -22,7 +22,7 @@ SelectItem,
 SelectTrigger,
 SelectValue,
 } from '@/components/ui/select'
-import { useToast } from '@/hooks/use-toast'
+import { useToast } from './hooks/useToast'
 import { WalletButton } from '@rainbow-me/rainbowkit'
 
 const SUPPORTED_CHAINS = [
@@ -47,7 +47,7 @@ const { disconnect } = useDisconnect({
     mutation: {
     onSuccess() {
         toast({
-        title: 'Disconnected',
+        title: 'Wallet Being Disconnected',
         description: 'Wallet disconnected successfully',
         })
     },
